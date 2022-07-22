@@ -1,0 +1,204 @@
+@import url("https://use.typekit.net/ccc3hxg.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins';
+  border: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(img/background.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+main {
+  display: flex;
+  margin: 3.5vw auto;
+  width: 70vw;
+  height: 85vh;
+  background-color: #51C8BC;
+  border-radius: 26px;
+  box-shadow: 0px 0px 10px 9px rgba(94, 94, 94, 0.103);
+}
+
+.sectionEsq {
+  position: relative;
+  display: flex;
+  flex: 30%;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 26px;
+}
+
+.logo {
+  width: 8.90vh;
+  margin: 3.5vh;
+}
+
+.titulo {
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.5vw;
+  text-align: center;
+  margin-top: 0.5vw;
+}
+
+.vr {
+  position: absolute;
+  left: 2.3vw;
+  bottom: 2.3vw;
+  width: 25vw;
+}
+
+.sectionDir {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  flex: 60%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 26px;
+}
+
+.areaIdioma {
+  padding: 0.4vw;
+  text-align: right;
+  border: none;
+  width: 9.3vw;
+  align-self: flex-end;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 1.1vw;
+  margin: 0.5vw 1.6vw 0px 0px;
+}
+
+.AreaCriarConta {
+  padding: 0.5vw 6.25vw 1.5vw 6.25vw;
+  display: flex;
+  flex-flow: column wrap;
+
+}
+
+.pCreate {
+  margin-bottom: 1.95vw;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 2.65vw;
+  text-align: left;
+}
+
+.forminput {
+  padding: 1vw;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 1vw;
+  border-bottom: 1px solid rgba(225, 225, 225, 0.582);
+}
+
+.forminput::placeholder {
+  color: #c5c5c5;
+}
+
+.check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.1vw;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 0.9vw;
+}
+
+.formcheck {
+  margin-right: 1.2vw;
+  width: 1.2vw;
+}
+
+.privacy {
+  color: #747474;
+}
+
+.btnSubmit {
+  color: white;
+  background-color: #3BADCD;
+  height: 4vw;
+  border-radius: 5px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 1.25vw;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btnSubmit:hover {
+  background-color: #51C8BC;
+  font-size: 1.1vw;
+}
+
+.areaEntrar {
+  font-size: 1vw;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  gap: 0.4vw;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 1vw;
+}
+
+.textohover:hover {
+  color: rgb(177, 177, 177);
+}
+
+.or {
+  font-family: 'Poppins';
+  font-size: 1.1vw;
+  font-weight: 500;
+  text-align: center;
+  color: #747474;
+}
+
+.logos {
+  width: 1.5vw;
+}
+
+.google {
+  margin-right: 8vw;
+  color: #747474;
+}
+
+.facebook {
+  color: #747474;
+}
+
+.temconta {
+  text-align: center;
+  margin-top: 1.5vw;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 1vw;
+  color: #747474;
+}
+
+.login {
+  color: #3BADCD;
+}
